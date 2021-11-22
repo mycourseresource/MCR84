@@ -1,1 +1,10 @@
+The Linux kernel team decided to remove some modules from the base kernel to allow "virtual" images to be slimmed down. The extra modules are moved into linux-image-extra and you can get them installed by typing [https://newbedev.com/how-to-install-usbserial-and-ftdi-sio-modules-to-14-04-trusty-vagrant-box]:
+
 sudo apt-get install linux-image-extra-virtual
+
+
+
+Useful commands:
+lsusb
+sudo dmesg | grep tty
+sudo dmesg    (try after plugging in the USB to console cable => will show USB cable details)
