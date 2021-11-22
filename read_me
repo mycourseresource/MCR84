@@ -20,3 +20,5 @@ sudo dmesg    (try after plugging in the USB to console cable => will show USB c
 
 
 https://www.ftdichip.com/Drivers/VCP/Linux/ftdi_sio.tar.gz
+
+https://forums.raspberrypi.com/viewtopic.php?t=95212
