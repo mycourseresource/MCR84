@@ -1,3 +1,11 @@
+https://ubuntuforums.org/showthread.php?t=1325846:
+plug in your device and verify if the driver is loaded by typing on a terminal window:
+lsmod | grep  ftdi_sio
+Id you get an answer, then it's loaded. If you don't get an answer, try
+sudo modprobe ftdi_sio
+If you boot next time and it is not loaded automatically, then make (as root) an entry into your /etc/modules file. Just put ftdi_sio at the end of the file
+
+
 The Linux kernel team decided to remove some modules from the base kernel to allow "virtual" images to be slimmed down. The extra modules are moved into linux-image-extra and you can get them installed by typing [https://newbedev.com/how-to-install-usbserial-and-ftdi-sio-modules-to-14-04-trusty-vagrant-box]:
 
 sudo apt-get install linux-image-extra-virtual
