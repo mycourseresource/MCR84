@@ -22,3 +22,18 @@ sudo dmesg    (try after plugging in the USB to console cable => will show USB c
 https://www.ftdichip.com/Drivers/VCP/Linux/ftdi_sio.tar.gz
 
 https://forums.raspberrypi.com/viewtopic.php?t=95212
+
+
+This is the fix:
+
+Install in Ubuntu terminal: sudo apt install linux-modules-extra-raspi
+Run: dmesg | grep tty    #this will show you the serial port, e.g. ttyUSB0
+Install sudo apt install putty
+Run sudo putty  #this will start PuTTY
+In PuTTY configuration select a valid font (this may not be required?)
+In PuTTY configuration select "Connection Type:" "Serial"
+In Serial line field enter serial port, e.g. /dev/ttyUSB0
+In Speed field enter 115200 for Mikrotik equipment
+Click "Open" to start session
+
+
