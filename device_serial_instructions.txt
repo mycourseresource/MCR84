@@ -9,7 +9,7 @@
                 d. Select a folder that you want to use for downloading the file.
                 e. Click "Save" to download the file.
 5. Change the permissions of this file to allow execution.
-   To change: a. Open Terminal: "Raspbian's start menu" => "Accessories" => "Terminal".
+   To change: a. Open Terminal: "CTRL" + "ALT" + "T".
               b. Navigate to the folder of the downloaded file, e.g. type "cd Downloads".
               c. List directory content and check file permissions, e.g. type "ls -al".
                  Note the colour coding of the different files and directories.
