@@ -20,7 +20,13 @@
    To run: a. Type "sudo ./device_serial.sh".
            b. List directory content and check for new file, e.g. type "ls -al".
            c. Note the colour coding of the different files and directories.
-7. Upload this file to your private repository.
+7. Change owner and group before uploading the new file to your private repository.
+   Change Owner: a. Type "sudo chown" + " " + your username + " " + file name starting with 'Device_Serial_'.
+                    Hint: copy/paste the file name starting with 'Device_Serial_'.
+                 b. List directory content and check for new user assigned to file name starting with 'Device_Serial_'.           
+   Change Group: a. Type "sudo chgrp" + " " + your username + " " + file name starting with 'Device_Serial_'.
+                    Hint: copy/paste the file name starting with 'Device_Serial_'.
+                 b. List directory content and check for new group assigned to file name starting with 'Device_Serial_'.
 8. Review: a. Was the file with a file name starting with 'Device_Serial_' created?
            b. Do you understand the file permissions, e.g. "-rwxr-xr-x"?
            c. Can you see the file content of the file name starting with 'Device_Serial_'?
