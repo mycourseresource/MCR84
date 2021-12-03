@@ -17,7 +17,12 @@
               e. Check that file permissions have been changed, e.g. type "ls -al".
                  Observe and check if the colour coding for "device_serial.sh" has changed?
 6. Run the script to create a new file with a file name starting 'Device_Serial_'.
-   To run: a. Type "sudo device_serial.sh".
+   To run: a. Type "sudo ./device_serial.sh".
            b. List directory content and check for new file, e.g. type "ls -al".
            c. Note the colour coding of the different files and directories.
 7. Upload this file to your private repository.
+8. Review: a. Was the file with a file name starting with 'Device_Serial_' created?
+           b. Do you understand the file permissions, e.g. "-rwxr-xr-x"?
+           c. Can you see the file content of the file name starting with 'Device_Serial_'?
+              Type "cat" + " " + file name starting with 'Device_Serial_'.
+           d. Review the CLI commands. Are there any commands that you are not sure about?
