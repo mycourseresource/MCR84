@@ -1,0 +1,23 @@
+1. Create a GitHub account on github.com.
+2. Create a private repository.
+3. Invite mycourseresource to collaborate.
+4. Download the "device_serial.sh" file from the
+   "https://github.com/mycourseresource/MCR83" repository.
+   To download: a. Click the file link and the file content will show
+                b. Right-click the "Raw" button and select "Save link as...".
+                c. The "Save As" dialog window will open.
+                d. Select a folder that you want to use for downloading the file.
+                e. Click "Save" to download the file.
+5. Change the permissions of this file to allow execution.
+   To change: a. Open Terminal: "Raspbian's start menu" => "Accessories" => "Terminal".
+              b. Navigate to the folder of the downloaded file, e.g. type "cd Downloads".
+              c. List directory content and check file permissions, e.g. type "ls -al".
+                 Note the colour coding of the different files and directories.
+              d. Change permissions for the file, e.g. type "sudo chmod +x device_serial.sh".
+              e. Check that file permissions have been changed, e.g. type "ls -al".
+                 Observe and check if the colour coding for "device_serial.sh" has changed?
+6. Run the script to create a new file with a file name starting 'Device_Serial_'.
+   To run: a. Type "sudo device_serial.sh".
+           b. List directory content and check for new file, e.g. type "ls -al".
+           c. Note the colour coding of the different files and directories.
+7. Upload this file to your private repository.
