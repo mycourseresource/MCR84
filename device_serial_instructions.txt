@@ -27,7 +27,8 @@
    Change Group: a. Type "sudo chgrp" + " " + your username + " " + file name starting with 'Device_Serial_'.
                     Hint: copy/paste the file name starting with 'Device_Serial_'.
                  b. List directory content and check for new group assigned to file name starting with 'Device_Serial_'.
-8. Review: a. Was the file with a file name starting with 'Device_Serial_' created?
+8. Upload the new file to your private repository.
+9. Review: a. Was the file with a file name starting with 'Device_Serial_' created?
            b. Do you understand the file permissions, e.g. "-rwxr-xr-x"?
            c. Can you see the file content of the file name starting with 'Device_Serial_'?
               Type "cat" + " " + file name starting with 'Device_Serial_'.
