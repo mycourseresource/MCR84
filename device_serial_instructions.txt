@@ -2,7 +2,7 @@
 2. Create a private repository.
 3. Invite mycourseresource to collaborate.
 4. Download the "device_serial.sh" file from the
-   "https://github.com/mycourseresource/MCR83" repository.
+   "https://github.com/mycourseresource/MCR84" repository.
    To download: a. Click the file link and the file content will show
                 b. Right-click the "Raw" button and select "Save link as...".
                 c. The "Save As" dialog window will open.
