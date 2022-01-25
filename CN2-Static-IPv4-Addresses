@@ -60,3 +60,21 @@ Record here all the static IPv4 addresses that you are currently use for labs, e
 10.10.10.97
 10.10.10.98 - 1. Skills Demonstration - Part 1 of 1 - 6N0720 Network Security - Remote Access - Stefan
 10.10.10.99 - 1. Skills Demonstration - Part 1 of 1 - 6N0720 Network Security - Linux VM Access - Stefan
+
+
+THE 3 IPTABLES CHAINS - Some Examples
+=====================================
+
+INPUT (Incoming Connections):
+sudo iptables -A INPUT -i lo -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport ssh -s 10.10.10.98 -j ACCEPT
+sudo iptables -A INPUT -m conntrack --ctstate ESTABLISHED,RELATED -j ACCEPT
+sudo iptables -A INPUT --dport ssh -j DROP
+
+FORWARD:
+These are not used for our server model.
+
+OUTPUT (OUtgoing Connections):
+sudo iptables -A OUTPUT -o lo -j ACCEPT
+
+
